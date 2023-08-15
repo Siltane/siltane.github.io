@@ -43,3 +43,9 @@ nav {
 #menu ul li:hover > ul {
     display: inherit;
 }
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    /* Additional styling as needed */
+}
