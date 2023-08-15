@@ -49,3 +49,7 @@ section {
     background-color: #fff;
     /* Additional styling as needed */
 }
+.dark-mode {
+    background-color: #000;
+    color: #fff;
+}

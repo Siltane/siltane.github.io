@@ -9,8 +9,9 @@
 <body>
     <header>
         <nav>
+			<button id="theme-toggle">Toggle Theme</button>
             <div id="menu">
-                <!-- Dropdown Menu Will Be Here -->
+                <a href="ai.html">AI</a>
             </div>
         </nav>
     </header>
@@ -25,7 +26,13 @@
         <!-- Resources Content Here -->
     </section>
     <section id="contact">
-        <!-- Contact Form Here -->
+		<form action="/submit_contact" method="post">
+		<input type="text" name="name" placeholder="Name">
+		<input type="email" name="email" placeholder="Email">
+		<textarea name="message" placeholder="Message"></textarea>
+		<button type="submit">Send</button>
+</form>
+
     </section>
 </main>
 
