@@ -53,3 +53,9 @@ section {
     background-color: #000;
     color: #fff;
 }
+
+.dark-mode a {
+    color: #ffd700; /* Gold color for links in dark mode */
+}
+
+/* Other specific styling for dark mode as needed */
